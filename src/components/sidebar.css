@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-heading{
+   
+    height: 10%;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 12px;
+    margin: 20px 0;
+}
+.sidebar-icons{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 20px;
+    align-items: center;
+    gap: 12px;
+      
+        
+    
+    p{
+        font-family: Noto Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    }
+}
+.img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}

@@ -1,0 +1,38 @@
+.contain {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-part {
+    height: 100%;
+    width: 15vw; /* 20% of the viewport width */
+    border: 1px solid red;
+    display: flex; /* Ensures child components take up the full height and width */
+    align-items: stretch;
+}
+
+.sidebar {
+    flex-grow: 1; /* Ensures the Sidebar fully stretches to the parent's dimensions */
+    width: 100%; /* Explicitly sets width to match parent */
+    height: 100%; /* Ensures the Sidebar matches the parent's height */
+    box-sizing: border-box; /* Includes padding and border in the Sidebar's dimensions */
+}
+
+.right-part {
+    height: 100%;
+    width: 85vw; /* 80% of the viewport width */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+}
+
+.headerx {
+    /* height: 20%; Occupies 20% of the right-part height */
+    width: 100%; /* Full width of the right-part */
+}
+
+.sectionx {
+    /* height: 80%; Occupies the remaining 80% */
+    width: 100%; /* Full width of the right-part */
+}
